@@ -1,4 +1,4 @@
-REPOSITORY ?= https://petbattle.github.io/helm-charts/ 
+REPOSITORY ?= https://springdo.github.io/helm-charts/ 
 
 helm:
 	helm repo index --url $(REPOSITORY) --merge index.yaml .
