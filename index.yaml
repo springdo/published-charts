@@ -3,7 +3,7 @@ entries:
   pet-battle:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-04-13T10:21:52.252786+01:00"
+    created: "2021-04-13T10:28:55.067389+01:00"
     description: Pet Battle Frontend
     digest: b8ac3b8cfc121cd4a34c9b61e6736ba486bdf16d31ff3bca3584810a0d602797
     home: https://petbattle.github.io/helm-charts
@@ -16,4 +16,23 @@ entries:
     urls:
     - https://springdo.github.io/helm-charts/pet-battle-1.0.6.tgz
     version: 1.0.6
-generated: "2021-04-13T10:21:52.24932+01:00"
+  pet-battle-api:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-04-13T10:28:55.068543+01:00"
+    description: Pet Battle API
+    digest: 189229deb48a50605f8926a437608ffc21b51d09e2ad72a59c0d0b46d2b4d45a
+    home: https://petbattle.github.io/helm-charts
+    icon: https://avatars1.githubusercontent.com/u/68044996?s=200&v=4
+    keywords:
+    - devops
+    - petbattle
+    kubeVersion: '>=1.11.0-0'
+    maintainers:
+    - name: eformat
+    name: pet-battle-api
+    type: application
+    urls:
+    - https://springdo.github.io/helm-charts/pet-battle-api-1.0.14.tgz
+    version: 1.0.14
+generated: "2021-04-13T10:28:55.066372+01:00"

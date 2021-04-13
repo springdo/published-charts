@@ -35,8 +35,17 @@ url: https://nexus-labs-ci-cd.apps.openshift.example.com/repository/helm-charts
 ```
 
 ![pb-helm-charts-ocp.png](images/pb-helm-charts-ocp.png)
+
+## Install apps
+Install the helm cli if you don't already have it....
+
+example install ....
+```bash
+helm upgrade --install APP_NAME springdo/APP --version=1.0.21 --set something=value 
+```
+
 ## Delete apps
 
 ```bash
-helm uninstall pet-battle-infra pet-battle-tournament pet-battle-api pet-battle pet-battle-nsff
+helm uninstall APP_NAME
 ```
