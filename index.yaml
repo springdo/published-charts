@@ -1,9 +1,26 @@
 apiVersion: v1
 entries:
+  jenkins:
+  - apiVersion: v2
+    appVersion: v2.222.1
+    created: "2021-04-13T11:24:42.392268+01:00"
+    description: A Helm chart for deploying Jenkins on OpenShift with some additional
+      build agents and plugins
+    digest: 176ee5615a9d11474ed93475dc85f844009ca40f7c67f02af1dcbc57b744a16e
+    home: https://github.com/redhat-cop/helm-charts
+    icon: https://www.jenkins.io/images/logos/jenkins/256.png
+    maintainers:
+    - name: springdo
+    - name: ckavili
+    - name: eformat
+    name: jenkins
+    urls:
+    - https://springdo.github.io/published-charts/jenkins-1.0.0.tgz
+    version: 1.0.0
   pet-battle:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2021-04-13T11:19:50.715435+01:00"
+    created: "2021-04-13T11:24:42.393209+01:00"
     description: Pet Battle Frontend
     digest: b8ac3b8cfc121cd4a34c9b61e6736ba486bdf16d31ff3bca3584810a0d602797
     home: https://petbattle.github.io/helm-charts
@@ -19,7 +36,7 @@ entries:
   pet-battle-api:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-04-13T11:19:50.718204+01:00"
+    created: "2021-04-13T11:24:42.394644+01:00"
     description: Pet Battle API
     digest: 189229deb48a50605f8926a437608ffc21b51d09e2ad72a59c0d0b46d2b4d45a
     home: https://petbattle.github.io/helm-charts
@@ -35,4 +52,4 @@ entries:
     urls:
     - https://springdo.github.io/published-charts/pet-battle-api-1.0.14.tgz
     version: 1.0.14
-generated: "2021-04-13T11:19:50.714055+01:00"
+generated: "2021-04-13T11:24:42.390685+01:00"
